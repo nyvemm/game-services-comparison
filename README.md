@@ -5,13 +5,13 @@
 Wanna keep this local? Do these things:
 
 1. Make a copy, homie:
-\```
+```
 git clone git@github.com:nyvemm/game-services-comparison.git
-\```
+```
 2. Gear up with the right tools:
-\```
+```
 npm install
-\```
+```
 
 ## What's it do?
 
@@ -36,7 +36,7 @@ To call a script into action, say `npm run` followed by the script's name. Like,
 
 Check out how an endpoint looks:
 
-\```javascript
+```javascript
 router.get(
   '/games',
   cacheMiddleware<Game[]>(3600000, generateCacheKey),
@@ -49,7 +49,7 @@ router.get(
     }
   },
 );
-\```
+```
 
 This right here is the `/games` spot. Uses middleware to stash the results, then pulls up games for a specific platform and sends 'em out. If things get twisted, it tosses the problem to the next middleware.
 
