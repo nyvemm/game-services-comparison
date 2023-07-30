@@ -1,0 +1,26 @@
+# Node.js dependencies
+/node_modules
+
+# Built files
+/dist
+
+# Environment variables
+/.env
+
+# Editor and IDE specific files
+/.vscode
+/.idea
+
+# Logs and cache
+/logs
+/.cache
+
+# Output of code formatters and linters
+/prettier
+/eslint
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
